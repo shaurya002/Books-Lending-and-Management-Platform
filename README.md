@@ -162,7 +162,12 @@ feature/testing
 
 ## 📮 API Documentation
 
-Documentation will be added after implementing the REST layer.
+API endpoints are documented using Swagger / OpenAPI.
+
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
+- OpenAPI JSON: http://localhost:8080/v3/api-docs
+
+Use the Swagger UI to explore and test endpoints interactively. API testing is also performed using Postman.
 
 ---
 
@@ -177,8 +182,6 @@ Unit and integration testing will be added in future milestones.
 ## 🚀 Future Enhancements
 
 - JWT Authentication
-- Role-Based Authorization
-- Swagger / OpenAPI
 - Docker Compose
 - Redis Cache
 - Spring AI Integration
