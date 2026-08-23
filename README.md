@@ -4,8 +4,6 @@ A production-style **Library Management System** built using **Java, Spring Boot
 
 The project is designed to demonstrate enterprise backend development practices such as layered architecture, DTO mapping, JPA relationships, validation, exception handling, AOP logging, pagination, and clean code principles.
 
-> 🚧 This project is being developed incrementally. Each feature is implemented in a separate Git branch and merged after completion.
-
 ---
 
 ## 🚀 Features
@@ -35,6 +33,7 @@ The project is designed to demonstrate enterprise backend development practices 
 - Lombok
 - Spring Validation
 - Spring AOP
+- Spring Security
 - Git & GitHub
 - Postman
 
@@ -43,12 +42,12 @@ The project is designed to demonstrate enterprise backend development practices 
 ## 📁 Project Structure
 
 ```text
-src/main/java/com/project/lms
+src/main/java/com/shaurya/librarymanagementsystem
 
 ├── controller
 ├── service
 │   └── impl
-├── repository
+├── repositories
 ├── model
 │   ├── entity
 │   └── enums
@@ -57,11 +56,9 @@ src/main/java/com/project/lms
 │   └── response
 ├── mapper
 ├── exception
-├── response
 ├── aspect
 ├── config
-├── util
-└── LmsApplication
+└── LibraryManagementSystemApplication
 ```
 
 ---
@@ -127,7 +124,7 @@ src/main/java/com/project/lms
 - [x] AOP Logging
 - [x] Documentation
 - [x] Spring Security
-- [In Progress] Testing
+- [x] Testing
 ---
 
 ## 🌿 Git Branch Strategy
@@ -171,11 +168,26 @@ Use the Swagger UI to explore and test endpoints interactively. API testing is a
 
 ---
 
+### 🔐 Security
+
+- HTTP Basic Authentication
+- Role-based authorization
+- LIBRARIAN and MEMBER roles
+- Protected REST endpoints
+- Password hashing using BCrypt
+
+---
+
 ## 🧪 Testing
 
-API testing is performed using Postman.
+- Unit testing implemented for service and controller layers
+- JUnit 5 and Mockito used for unit testing
+- MockMvc used for controller-layer testing
+- Postman used for API testing
+- 66+ service-layer unit tests implemented
+- Controller tests cover HTTP status codes, request/response handling, validation, and service interactions
 
-Unit and integration testing will be added in future milestones.
+Integration testing will be added in future milestones.
 
 ---
 
