@@ -2,16 +2,15 @@ package com.shaurya.librarymanagementsystem.service.impl;
 
 import com.shaurya.librarymanagementsystem.model.entity.User;
 import com.shaurya.librarymanagementsystem.repositories.UserRepository;
-import com.shaurya.librarymanagementsystem.service.CustomUserDetailsService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class CustomUserDetailsServiceImpl implements CustomUserDetailsService {
+public class CustomUserDetailsServiceImpl implements UserDetailsService {
 
     private final UserRepository userRepository;
 

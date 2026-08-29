@@ -21,6 +21,12 @@ public class SecurityConfig {
                 .cors(Customizer.withDefaults())
                 .authorizeHttpRequests(auth -> auth
 
+                        .requestMatchers(
+                                "/swagger-ui/**",
+                                "/v3/api-docs/**",
+                                "/swagger-ui.html"
+                        ).permitAll()
+
                         .requestMatchers(HttpMethod.GET, "/books/**")
                         .hasAnyRole("LIBRARIAN", "MEMBER")
 
