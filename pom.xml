@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.shaurya</groupId>
-    <artifactId>Library-Management-System</artifactId>
+    <artifactId>books-lending-management-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Library-Management-System</name>
-    <description>Library-Management-System</description>
+    <name>Books Lending Management Platform</name>
+    <description>Books Lending Management Platform</description>
     <url/>
     <licenses>
         <license/>

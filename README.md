@@ -1,6 +1,6 @@
-# 📚 Library Management System (LMS)
+# 📚 Books Lending Management Platform
 
-A production-style **Library Management System** built using **Java, Spring Boot, Spring Data JPA, MySQL, and REST APIs**.
+A production-style **Books Lending Management Platform** built using **Java, Spring Boot, Spring Data JPA, MySQL, and REST APIs**.
 
 The project is designed to demonstrate enterprise backend development practices such as layered architecture, DTO mapping, JPA relationships, validation, exception handling, AOP logging, pagination, and clean code principles.
 
@@ -58,7 +58,7 @@ src/main/java/com/shaurya/librarymanagementsystem
 ├── exception
 ├── aspect
 ├── config
-└── LibraryManagementSystemApplication
+└── BooksLendingManagementPlatformApplication
 ```
 
 ---
