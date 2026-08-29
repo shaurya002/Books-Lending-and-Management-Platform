@@ -22,6 +22,6 @@ import org.junit.platform.suite.api.Suite;
         BorrowRecordControllerTest.class,
         AuthorControllerTest.class
 })
-public class LibraryManagementSystemApplicationTests {
+public class BooksLendingManagementPlatformApplicationTests {
     // Run this class as a JUnit test suite to execute all specified service layer unit tests.
 }
