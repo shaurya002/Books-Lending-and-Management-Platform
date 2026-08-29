@@ -42,7 +42,7 @@ The project is designed to demonstrate enterprise backend development practices 
 ## 📁 Project Structure
 
 ```text
-src/main/java/com/shaurya/librarymanagementsystem
+src/main/java/com/shaurya/bookslendingmanagementplatform
 
 ├── controller
 ├── service
